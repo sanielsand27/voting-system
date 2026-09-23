@@ -9,7 +9,7 @@ const candidateRoutes = require("./routes/candidateRoutes");
 const voteRoutes = require("./routes/voteRoutes");
 const adminRoutes = require("./routes/adminRoutes");
 const positionRoutes = require("./routes/positionRoutes");
-
+const settingsRoutes = require("./routes/settingsRoutes");
 const app = express();
 
 /*
