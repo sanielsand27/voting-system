@@ -64,6 +64,7 @@ app.use("/api/candidates", candidateRoutes);
 app.use("/api/votes", voteRoutes);
 app.use("/api/admin", adminRoutes);
 app.use("/api/positions", positionRoutes);
+app.use("/api/settings", settingsRoutes);
 
 /*
 |--------------------------------------------------------------------------
@@ -100,6 +101,10 @@ app.use((err, req, res, next) => {
     message: err.message,
   });
 });
+
+
+
+
 
 /*
 |--------------------------------------------------------------------------
